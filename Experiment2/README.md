@@ -5,4 +5,4 @@ For this experiment, we will use:
 
 Circuit #1:
 Light sensor + Arduino (Analog Read)
-
+https://user-images.githubusercontent.com/43145138/82398041-dd8eac00-9a1f-11ea-9c4f-df649609d6ec.gif
