@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* If you want to add custome fonts
+ * Add the line "@font-face { font-family: FONTNAME; src: url('fonts/FONTNAME.ttf'); }
+ * And plcae the file FONTNAME.ttf in the folder style/fonts/
+ */
+@font-face { font-family: Bebas; src: url('fonts/BEBAS.ttf'); }
