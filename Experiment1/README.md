@@ -30,3 +30,14 @@ https://editor.p5js.org/omid.ettehadi/sketches/69NmsvQ3a
 
 2) Setting up your own files
 Folder Test_2
+
+------------------------------------------------------------
+Test #3:
+In this example, you can use the camera to change the color of the boxes through using
+Posenet. When your two wirst get closer to each other the cubes will change color.
+
+1) Using P5 Live Editor:
+https://editor.p5js.org/omid.ettehadi/sketches/uL17WiBuw
+
+2) Setting up your own files
+Folder Test_3
