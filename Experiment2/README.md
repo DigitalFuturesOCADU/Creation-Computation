@@ -17,13 +17,13 @@
 
 <h5>Experiment replicated on Arduino Uno</h5>
 
-![Uno-PhotoResistor-LED](https://user-images.githubusercontent.com/43145138/83693133-6e8a8900-a5c3-11ea-8bcc-ac6a4bb18979.gif)
+![Uno-PhotoResistor](https://user-images.githubusercontent.com/43145138/83698018-6257f900-a5ce-11ea-9999-b01630a7166e.gif)
 
 <br>
 
 <h5>Experiment replicated on Arduino Nano 33 IoT</h5>
 
-![Nano-PhotoResistor-LED](https://user-images.githubusercontent.com/43145138/83693861-e6a57e80-a5c4-11ea-8f45-3a5ba3a46181.gif)
+![Nano-PhotoResistor](https://user-images.githubusercontent.com/43145138/83693721-9e865c00-a5c4-11ea-9a15-b3bbd7e56a1e.gif)
 
 <br><br>
 
