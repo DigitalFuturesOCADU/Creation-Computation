@@ -28,7 +28,7 @@
 <br><br>
 
 
-<h4>Circuit #2.1</h4>
+<h3>Circuit #2.1</h3>
 <h4>LED + Arduino (digitalWrite)</h4>
 
 <h6>Blink the LED with delay function. This program will blink the LED for 1 second every second.</h6>
@@ -57,7 +57,7 @@
 <br><br>
 
 
-<h4>Circuit #2.2</h4>
+<h3>Circuit #2.2</h3>
 <h4>LED + Arduino (digitalWrite)</h4>
 
 
@@ -86,7 +86,7 @@
 <br><br>
 
 
-<h4>Circuit #2.3</h4>
+<h3>Circuit #2.3</h3>
 <h4>LED + Arduino (digitalWrite + timer)</h4>
 
 
@@ -116,7 +116,7 @@
 <br><br>
 
 
-<h4>Circuit #3.1</h4>
+<h3>Circuit #3.1</h3>
 <h4> PhotoResistor + LED + Arduino</h4>
 
 
@@ -143,7 +143,7 @@
 <br><br>
 
 
-<h4>Circuit #3.2</h4>
+<h3>Circuit #3.2</h3>
 <h4>Two Photo Resistors + Two LEDs + Arduino</h4>
 
 
@@ -175,7 +175,7 @@
 
 
 
-<h4>Circuit #4</h4>
+<h3>Circuit #4</h3>
 <h4>Servo + Arduino</h4>
 
 
