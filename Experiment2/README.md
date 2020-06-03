@@ -1,7 +1,7 @@
 <h1>Experiment 2</h1>
 <h2>For this experiment, we will use:</h2>
-  <h3>-Inputs: 1.light sensors</h3>
-<h3>-Output: 1.LEDs     2.Servos</h3>
+  <h3>Inputs</h3> <p>1. Photo Resistors (Light Sensors)</p>
+<h3>Output</h3> <p>1. LEDs</p> <p>2. Servos</p>
 
 <br>
 
