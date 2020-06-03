@@ -2,18 +2,20 @@
 <h2>For this experiment, we will use:</h2>
   <h3>-Inputs: 1.light sensors</h3>
 <h3>-Output: 1.LEDs     2.Servos</h3>
+
+<br>
 <br>
 
-
 Circuit #1:
-Light sensor + Arduino (Analog Read)
-Reading the sensor
+<h4>Light sensor + Arduino (Analog Read)</h4>
 
-TinkerCad Simulation:
+<h5>TinkerCad Simulation:</h5>
 <h6>When light decreases, the sensor reading is also decreased and received by pin A0 on Arduino Uno.</h6> 
+
 ![arduino-photo-resistor-analog-read](https://user-images.githubusercontent.com/43145138/82398041-dd8eac00-9a1f-11ea-9c4f-df649609d6ec.gif)
 
 <h6>Experiment replicated on Arduino Uno</h6>
+
 ![Uno-PhotoResistor-LED](https://user-images.githubusercontent.com/43145138/83693133-6e8a8900-a5c3-11ea-8bcc-ac6a4bb18979.gif)
 
 <h6>Experiment replicated on <b>Arduino Nano 33 IoT</b></h6>
