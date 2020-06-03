@@ -1,7 +1,8 @@
-<p>Experiment 2
-For this experiment, we will use:
--Inputs: 1.light sensors
--Output: 1.LEDs     2.Servos</p>
+<h1>Experiment 2</h1>
+
+<h2>For this experiment, we will use:<h2>
+  <h3>-Inputs: 1.light sensors</h3>
+<h3>-Output: 1.LEDs     2.Servos</h3>
 
 Circuit #1:
 Light sensor + Arduino (Analog Read)
