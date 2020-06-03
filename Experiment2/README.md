@@ -5,7 +5,7 @@
 
 <br>
 
-<h4>Circuit #1</h4>
+<h3>Circuit #1</h3>
 <h4>Light sensor + Arduino (Analog Read)</h4>
 
 <h6>The Arduino will receive the voltage reading from the photo resistor. When light decreases, the sensor reading is also decreased and received by pin A0 on Arduino Uno.</h6> 
