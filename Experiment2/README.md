@@ -9,6 +9,15 @@
 <h4>Light sensor + Arduino (Analog Read)</h4>
 
 <h6>The Arduino will receive the voltage reading from the photo resistor. When light decreases, the sensor reading is also decreased and received by pin A0 on Arduino Uno.</h6> 
+
+<br>
+
+<h5>Circuit Layout</h5>
+
+![Circuit#1](https://user-images.githubusercontent.com/43145138/83700474-f1680f80-a5d4-11ea-8290-664215fb973b.png)
+
+<br>
+
 <h5>TinkerCad Simulation</h5>
 
 ![arduino-photo-resistor-analog-read](https://user-images.githubusercontent.com/43145138/82398041-dd8eac00-9a1f-11ea-9c4f-df649609d6ec.gif)
@@ -33,11 +42,19 @@
 
 <h6>Blink the LED with delay function. This program will blink the LED for 1 second every second.</h6>
 
+<br>
+
+<h5>Circuit Layout</h5>
+
+![Circuit #2](https://user-images.githubusercontent.com/43145138/83700481-f4fb9680-a5d4-11ea-814d-6603fbc1f5ce.png)
+
+<br>
+
 
 <h5>TinkerCad Simulation</h5>
 
 ![arduino-led-blink-delay](https://user-images.githubusercontent.com/43145138/82398346-acfb4200-9a20-11ea-9128-5c9f08bcd24c.gif)
-
+thub
 
 <br>
 
@@ -122,6 +139,14 @@
 
 <h6>Turn on LED as the ambient light decreases. This program will turn the LED ON when the room becomes too dark.</h6>
 
+<br>
+
+<h5>Circuit Layout</h5>
+
+![Circuit #3-1](https://user-images.githubusercontent.com/43145138/83700488-f88f1d80-a5d4-11ea-917e-901bc1192006.png)
+
+<br>
+
 
 <h5>TinkerCad Simulation</h5>
 
@@ -149,6 +174,13 @@
 
 <h6>Read and compare between two sensors and perform an output. This program will compare between the readings of sensor A and sensor B, and then turn the respective LED on.</h6>
 
+<br>
+
+<h5>Circuit Layout</h5>
+
+![Circuit #3-2](https://user-images.githubusercontent.com/43145138/83700494-fb8a0e00-a5d4-11ea-8d9d-44b284eab70c.png)
+
+<br>
 
 <h5>TinkerCad Simulation</h5>
 
@@ -179,7 +211,15 @@
 <h4>Servo + Arduino</h4>
 
 
-<h6>Output a sweep function on the servo with a timer. This program will move the servo from 0º to 180º and back. 
+<h6>Output a sweep function on the servo with a timer. This program will move the servo from 0º to 180º and back.</h6>
+
+<br>
+
+<h5>Circuit Layout</h5>
+
+![Circuit #4](https://user-images.githubusercontent.com/43145138/83700507-fe84fe80-a5d4-11ea-96a6-2a3697ec38ab.png)
+
+<br>
 
 
 <h5>TinkerCad Simulation</h5>
