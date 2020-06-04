@@ -143,7 +143,7 @@ thub
 
 <h5>Circuit Layout</h5>
 
-![Circuit #3-1](https://user-images.githubusercontent.com/43145138/83700488-f88f1d80-a5d4-11ea-917e-901bc1192006.png)
+![Circuit #3-1](https://user-images.githubusercontent.com/43145138/83700819-e6fa4580-a5d5-11ea-8601-d70d9938701e.png)
 
 <br>
 
@@ -178,7 +178,7 @@ thub
 
 <h5>Circuit Layout</h5>
 
-![Circuit #3-2](https://user-images.githubusercontent.com/43145138/83700494-fb8a0e00-a5d4-11ea-8d9d-44b284eab70c.png)
+![Circuit #3-2](https://user-images.githubusercontent.com/43145138/83700816-e366be80-a5d5-11ea-8042-3fbacc9c10cf.png)
 
 <br>
 
