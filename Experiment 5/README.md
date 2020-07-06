@@ -5,10 +5,10 @@ Things you will need for this experiment:
 * Create a PubNub Account
 
 ## In this section there are 4 networking examples 
-* Web to Web  
-* Web to Physical 
-* Physical to Web 
-* Physical to Physical
+* [Web to Web](Web%20to%20Web)  
+* [Web to Physical]
+* [Physical to Web]
+* [Physical to Physical]
 
 ## What is PubNub?
 PuNub is a cloud-based server that receives and sends "messages" in real time. By using the PubNub API, users can subscribe (receive) and publish (send) data instantly.
