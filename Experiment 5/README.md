@@ -31,7 +31,9 @@ JSON uses a concept of "Key:Value" of storing data.
 In this example, the Key is message, and the Value is "Hello World"
 
 ```
-let obj = { message: "Hello World"}
+let obj = { 
+    message: "Hello World"
+}
 ```
 If you were to print "obj" this is what you would receive in the console:
 
@@ -57,10 +59,11 @@ Each JSON object can hold multiple Key:Value pairs
 
 Example:
 ```
-let obj = {message: "Hello World",
-           user: "DF Student", 
-           location: "Toronto"
-           }
+let obj = {
+    message: "Hello World",
+    user: "DF Student", 
+    location: "Toronto"
+}
 ```
 
 To retrieve any of the individual values you can call them explicitly: 
@@ -80,10 +83,11 @@ Toronto
 JSON values can be assigned to other variables. In this example the variable sender is assigned the value of obj.user. It is then printed out in the console. 
 
 ```
-let obj = {message: "Hello World",
-           user: "DF Student", 
-           location: "Toronto"
-           }
+let obj = {
+    message: "Hello World",
+    user: "DF Student", 
+    location: "Toronto"
+}
 
 let sender = obj.user;
 
@@ -103,10 +107,10 @@ let myCity = "Warsaw";
 let myGradYear = 2022; 
 
 let obj = {message: myMessage,
-           user: MyName, 
-           location: myCity, 
-           year: myGradYear
-           }
+    user: MyName, 
+    location: myCity, 
+    year: myGradYear
+}
            
 print(obj.message);
 print(obj.user);
