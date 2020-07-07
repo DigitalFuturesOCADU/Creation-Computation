@@ -172,7 +172,7 @@ Warsaw
  ![PubNub Keys for p5](README%20Images/p5-keys.png)
 
  
-### Connecting Arduino to Wifi
+## Connecting Arduino to Wifi
 
 The following libraries need to be added to successfully connect your Arduino Naon IoT 33 to WiFi.
 
