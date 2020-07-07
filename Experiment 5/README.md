@@ -128,11 +128,27 @@ Warsaw
 ## To Get Started
 1. [Create a PubNub Account](https://dashboard.pubnub.com/signup) 
 2. Create an "App" in PubNub 
+ ![Create PubNub App](README%20Images/create-new-app-ss.png)
+ 
+- Give your App a name
+ ![Create PubNub App Name](README%20Images/create-new-app-name-ss.png)
+
 3. Find the Subscribe & Publish Keys 
  - These keys are unique to every "App". If others want to be able to subscribe or publish messages to your "App", you must share your keys.
+  ![Find PubNub Keys](README%20Images/find-keys.png)
+  ![Find PubNub Keys 2](README%20Images/find-keys-2.png)
+  ![Find PubNub Keys 3](README%20Images/find-keys-3.png)
+
 4. In the sample code, place your Publish Key in the text where it says "Your publish key here", and your Subscribe key where it says "Your subscribe key here"
- - In Arduino:
- - In a p5 Sketch:
+ - In Arduino
+ 
+  ![PubNub Keys for Arduino](README%20Images/arduino-keys.png)
+
+ - In a p5 Sketch
+ 
+ ![PubNub Keys for p5](README%20Images/p5-keys.png)
+
+ 
 
 ## Web to Web 
 ### Example 1: Circles 
@@ -148,19 +164,24 @@ Warsaw
 - This example can be tested by yourself. 
  - If testing this example with a partner, ensure that you are using the **same publish & subscribe keys**, and that the **channel name is the same**. 
  
- // add in connection diagram 
- 
+ Connection Diagram for Arduino:
+![web to nano](README%20Images/web-to-nano.png)
+
 ## Physical to Web 
 *An Arduino Nano is publishing the value of a potiometer from between 0-1024. This sketch subscribes to the channel the nano is publishing to, and receives that value. The value is mapped to the height of the screen. Every in coming value is drawn on the screen as a vertical and creates graph.* 
 
-// add in connection diagram 
+Connection Diagram for Arduino:
+
+![nano to web](README%20Images/nano-to-web.png)
 
 ## Physical to Physical 
 *This example publishes the value of your potentiometer to a channel. The potentiometer controls the brightness of one LED on your circuit. On another channel, you are subscribed to receive the value of another person's potentiometer. This value controls the brightness of the other LED on your circuit.* 
 
 *This example requires **two different channel names** but uses the **same Publish and Subscribe keys**.* 
 
-// add in connection diagram 
+Connection Diagram for User 1 & 2: 
+
+![User 1 & 2](README%20Images/nano-nano-1.png)
 
  
 
