@@ -184,7 +184,10 @@ From there add the following:
 - ArduinoJson
 - PubNub
 
-Once complete, enter your WiFi crendentials where it says "Your Wifi password/network name here"
+Once complete, enter your WiFi crendentials where it says "Your Wifi password/network name here". 
+
+**Note: You may have issues if you are using a network that contains "-5G" at the end. Often home WiFi will broadcast two networks, "network" and "network-5G". If possible, use "network", and not "network-5G"** 
+
 ![PubNub Keys for p5](README%20Images/arduino-wifi.png)
 
 Upload the code, and open the Serial Monitor. You should see printed `Attempting to connect to the network, SSID:`. 
