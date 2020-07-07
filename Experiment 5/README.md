@@ -172,6 +172,28 @@ Warsaw
  ![PubNub Keys for p5](README%20Images/p5-keys.png)
 
  
+### Connecting Arduino to Wifi
+
+The following libraries need to be added to successfully connect your Arduino Naon IoT 33 to WiFi.
+
+To add the libraries, open Arduino and go to Tools -> Manage Libraries. 
+
+From there add the following:
+
+- WiFiNINA
+- ArduinoJson
+- PubNub
+
+Once complete, enter your WiFi crendentials where it says "Your Wifi password/network name here"
+![PubNub Keys for p5](README%20Images/arduino-wifi.png)
+
+Upload the code, and open the Serial Monitor. You should see printed `Attempting to connect to the network, SSID:`. 
+
+Once you are connected, the following will print: `You're connected to the network`.
+
+There is a delay in the code to ensure that there is a WiFi connection, so any code written will take a few seconds to execute.
+
+If your PubNub credentials are placed correctly, you will receive the printed message: `PubNub set up`. 
 
 ## Web to Web 
 ### Example 1: Circles 
