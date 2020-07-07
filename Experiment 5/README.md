@@ -14,19 +14,42 @@ Things you will need for this experiment:
 ## What is PubNub?
 PuNub is a cloud-based server that receives and sends "messages" in real time. By using the PubNub API, users can subscribe (receive) and publish (send) data instantly.
 
+ ![PubNub Diagram](README%20Images/pubnub-galaxy.gif)
+ *(Diagram taken from [PubNub Data Streans](https://www.pubnub.com/docs/web-javascript/data-streams-publish-and-subscribe)
+
 Each account can have up to 1,000,000 messages a month. 
 
 The API works with both Arduino & JavaScript, making it easy to use an Arduino to talk to a Webpage or vice versa. 
 
-PubNub Keys
+PubNub uses *Apps* Each app has a **Publish key** and **Subscribe key**. To use the app, your project must include both of these keys. 
 
-PubNub Channels 
+Each set of keys can have multiple **channels**. 
+
+Users who are connected with the same Publish and Subscribe keys, can publish and subscribe to channels within the app. 
+
+**To send and receive messages to other users you must be on the same channel**
+
+This example shows everyone on the same channel. A user publishes one message, and the rest of the users (including the user who published the message) receives the message: 
+
+ ![PubNub Diagram - Single Channel](README%20Images/pubnub-01.png)
+ 
+ Users can Publish to one channel, and subscribe to another. Alternatively, users can subscribe to multiple channels.
+ 
+ In this example, User 1 publishes to Channel 1, but is subscribed to Channel 2. User 2 published to Channel 2, but subscribes to Channel 1. This example shows how you can listen and publish to different channels. 
+ 
+![PubNub Diagram - Multi-Channel](README%20Images/pubnub-multi-01.png)
+  
+The users in the examples can be browser windows, browsers on a phone, or an Arduino.   
+
 
 ## What is JSON? 
 
 JSON stands for **J**ava**S**cript **O**bject **N**otation
+In the examples in this experiment, JSON is used as a way of sending and receiving multiple types of data amongst users. 
+
 
 JSON uses a concept of "Key:Value" of storing data. 
+
 
 In this example, the Key is message, and the Value is "Hello World"
 
