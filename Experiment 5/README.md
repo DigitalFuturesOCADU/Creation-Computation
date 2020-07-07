@@ -43,6 +43,7 @@ Deserialize
 ### Example 1: Circles 
 *Everytime a mouse is clicked by a user, a message with the x & y position of the cursor is published. A circle is drawn at that x & y location and filled with a random RGB colour.*
 - This example can be used in a group, or by yourself.
+
 ### Example 2: Who is Here
 *This sketch draws out the names of all the unique users who have clicked on the webpage. Each name is sized according to how many times the user has clicked (i.e. if the user clicked 10 times, the font size drawn is size 10, clicked 123 times, the font size of that particular name is 123 etc.) The name is drawn at the x & y position the user first clicked*
 - You can test this example by yourself, or in a group. 
@@ -51,9 +52,19 @@ Deserialize
 *Web to Physical Computing example using the Web page to publish JSON to an Arduino Nano. When the user clicks on the page, the value of 0 or 255 is published. The Arduino receives the value. If the value is 255, the LED turns on. If the value is 0, the LED turns off* 
 - This example can be tested by yourself. 
  - If testing this example with a partner, ensure that you are using the **same publish & subscribe keys**, and that the **channel name is the same**. 
+ 
  // add in connection diagram 
  
 ## Physical to Web 
+*An Arduino Nano is publishing the value of a potiometer from between 0-1024. This sketch subscribes to the channel the nano is publishing to, and receives that value. The value is mapped to the height of the screen. Every in coming value is drawn on the screen as a vertical and creates graph.* 
+
+// add in connection diagram 
+
+## Physical to Physical 
+*This example publishes the value of your potentiometer to a channel. The potentiometer controls the brightness of one LED on your circuit. On another channel, you are subscribed to receive the value of another person's potentiometer. This value controls the brightness of the other LED on your circuit.* 
+
+*This example requires **two different channel names** but uses the **same Publish and Subscribe keys**.* 
+
 // add in connection diagram 
 
  
