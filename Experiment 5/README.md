@@ -24,11 +24,102 @@ PubNub Channels
 
 ## What is JSON? 
 
-Key:Value system of storing data. 
+JSON stands for **J**ava**S**cript **O**bject **N**otation
 
-Serialize
+JSON uses a concept of "Key:Value" of storing data. 
 
-Deserialize 
+In this example, the Key is message, and the Value is "Hello World"
+
+```
+let obj = { message: "Hello World"}
+```
+If you were to print "obj" this is what you would receive in the console:
+
+```
+print(obj);
+
+....
+console:
+{message: "Hello World"}
+```
+
+If you wanted to explicity retreive the "Value" of message, you can call the specific value: 
+
+```
+print(obj.message);
+
+....
+console:
+Hello World
+```
+
+Each JSON object can hold multiple Key:Value pairs
+
+Example:
+```
+let obj = {message: "Hello World",
+           user: "DF Student", 
+           location: "Toronto"
+           }
+```
+
+To retrieve any of the individual values you can call them explicitly: 
+
+```
+print(obj.message);
+print(obj.user);
+print(obj.location); 
+
+....
+console:
+Hello World
+DF Student
+Toronto
+```
+
+JSON values can be assigned to other variables. In this example the variable sender is assigned the value of obj.user. It is then printed out in the console. 
+
+```
+let obj = {message: "Hello World",
+           user: "DF Student", 
+           location: "Toronto"
+           }
+
+let sender = obj.user;
+
+print(sender);
+
+....
+console: 
+DF Student
+```
+
+JSON Values can also be variables, not just Strings. In this example, the JSON values are variables, rather than Strings. 
+
+``` 
+let myMessage = "Digital Futures"
+let myName = "Student";
+let myCity = "Warsaw";
+let myGradYear = 2022; 
+
+let obj = {message: myMessage,
+           user: MyName, 
+           location: myCity, 
+           year: myGradYear
+           }
+           
+print(obj.message);
+print(obj.user);
+print(obj.location);
+print(obj.year); 
+
+....
+console:
+Digital Futures
+Student
+Warsaw
+2022
+```
 
 ## To Get Started
 1. [Create a PubNub Account](https://dashboard.pubnub.com/signup) 
